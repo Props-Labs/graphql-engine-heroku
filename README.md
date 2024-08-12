@@ -1,3 +1,21 @@
+From:
+https://hasura.io/docs/1.0/graphql/core/deployment/deployment-guides/heroku.html#heroku-cli-deployment
+
+tldr;
+//create app
+heroku create rstlss-generation-production --stack=container
+
+//set git remote
+heroku git:remote -a rstlss-generation-production 
+
+//push
+git push heroku master
+
+
+
+
+
+
 # Hasura GraphQL Engine on Heroku
 
 [![GitHub stars](https://img.shields.io/github/stars/hasura/graphql-engine.svg?style=social&label=Star)](https://github.com/hasura/graphql-engine) 
