@@ -3,10 +3,10 @@ https://hasura.io/docs/1.0/graphql/core/deployment/deployment-guides/heroku.html
 
 tldr;
 //create app
-heroku create rstlss-generation-production --stack=container
+heroku create appnamehere --stack=container
 
 //set git remote
-heroku git:remote -a rstlss-generation-production 
+heroku git:remote -a appnamehere 
 
 //push
 git push heroku master
